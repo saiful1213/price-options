@@ -1,12 +1,12 @@
-import { Button } from "./components/ui/button"
+import Navbar from "./components/Navbar/Navbar"
 
 function App() {
 
   return (
-    <>
-      <h1 className="text-4xl font-bold text-center text-red-600 uppercase">hellow</h1>
-      <Button variant="destructive" size="lg">Click Me</Button>
-    </>
+    <div className="max-w-7xl mx-auto">
+      <Navbar></Navbar>
+      <h1 className="text-2xl font-bold">Saiful Islam</h1>
+    </div>
   )
 }
 
